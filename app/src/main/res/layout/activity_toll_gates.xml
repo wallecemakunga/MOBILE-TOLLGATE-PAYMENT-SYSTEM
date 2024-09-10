@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg"
+    tools:context=".TollGatesActivity">
+
+    <!-- Instruction Text -->
+    <TextView
+        android:id="@+id/tv_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Select a Toll Gate to Pass Through:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Spinner for Toll Gates -->
+    <Spinner
+        android:id="@+id/spinner_toll_gates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_instructions"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input_bg"
+        android:padding="10dp"/>
+
+    <!-- Confirm Button -->
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_below="@id/spinner_toll_gates"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Selected Toll Gate Display -->
+    <TextView
+        android:id="@+id/tv_selected_toll_gate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Toll Gate: "
+        android:textSize="16sp"
+        android:layout_below="@id/btn_confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: "
+        android:textSize="16sp"
+        android:layout_below="@id/tv_selected_toll_gate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_operational_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operational Hours: "
+        android:textSize="16sp"
+        android:layout_below="@id/tv_location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: "
+        android:textSize="16sp"
+        android:layout_below="@id/tv_operational_hours"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>

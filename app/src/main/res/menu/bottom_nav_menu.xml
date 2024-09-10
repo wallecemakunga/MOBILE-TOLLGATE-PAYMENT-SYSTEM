@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_toll_gate"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="Add Toll-gate"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_view_vehicles"
+        android:icon="@drawable/ic_baseline_directions_car_24"
+        android:title="View Vehicles"
+        android:textColor="@color/black"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_revenue_management"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:title="Revenue Management"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_baseline_assignment_return_24"
+        android:title="Logout"
+        app:showAsAction="ifRoom" />
+</menu>

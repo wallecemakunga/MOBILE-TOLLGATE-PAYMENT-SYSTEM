@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tollgate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TollGate">
+        <activity
+            android:name=".ManageTollGatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TotalTollgatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddVehicleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RevenueManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewVehiclesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddTollGateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DataAccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TollGatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RechargeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PayTollActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvTollBoothId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booth ID"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTollAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Title for the screen -->
+    <TextView
+        android:id="@+id/tv_vehicles_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView to display the list of vehicles -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_vehicles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_vehicles_title"
+        android:padding="4dp" />
+
+</RelativeLayout>
